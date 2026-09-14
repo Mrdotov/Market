@@ -13,3 +13,8 @@ export class UserResponseDto {
     Object.assign(this, partial);
   }
 }
+export class CreateUserDto{
+  email?: string;
+  username?: string;
+  password?: string;
+}
